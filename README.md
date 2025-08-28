@@ -1,6 +1,6 @@
 # cybersecurity_expert
 
-## Health check on backend
+## Health check on backend and starting backend server
 ```python
 cd backend
 python -m uvicorn app.main:app --reload
