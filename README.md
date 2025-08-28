@@ -1,14 +1,13 @@
 # cybersecurity_expert
 
 ## Health check on backend
-
 ```python
 cd backend
 python -m uvicorn app.main:app --reload
 ```
 
-```python
 ## Backend Technical Architecture
+```python
 backend/
 ├── .gitignore
 ├── requirements.txt
