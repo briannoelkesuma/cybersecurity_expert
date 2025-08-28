@@ -30,6 +30,8 @@ backend/
 │ ├── milvus_client.py # Manages all interactions with Milvus Lite.
 │ └── graph_client.py # Manages loading, saving, and querying the NetworkX graph.
 │
+├── docs/ # For all documentation related files.
+│
 ├── ingestion/
 │ ├── init.py
 │ └── pipeline.py # The complete, orchestrated data ingestion process.
