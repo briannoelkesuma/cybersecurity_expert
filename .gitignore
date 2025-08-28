@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Database and data files
+# We want to keep the directory structure but ignore the actual data files
+data/*
+!data/.gitkeep
+
+# IDE configuration files
+.vscode/
+.idea/

@@ -1,0 +1,35 @@
+# --- Web Framework & Server ---
+fastapi
+uvicorn[standard]
+
+# --- AI & Machine Learning ---
+# Core library for sentence embeddings
+sentence-transformers
+# PyTorch is a dependency for sentence-transformers
+torch
+# Client for interacting with Ollama's API
+requests
+
+# --- Database Clients ---
+# Official client for Milvus
+pymilvus
+# For building and managing the knowledge graph
+networkx
+# For handling data serialization for the graph (saving/loading)
+pydantic
+
+# --- Data Ingestion & Web Scraping ---
+# For parsing HTML content
+beautifulsoup4
+# For making HTTP requests to get web page content
+requests
+
+# --- Configuration & Utilities ---
+# For managing settings from environment variables or files
+pydantic-settings
+
+# --- Development & Linting (Optional but Recommended) ---
+# Code formatter to keep code consistent
+black
+# Linter to catch errors and style issues
+flake8
