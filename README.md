@@ -7,8 +7,8 @@ cd backend
 python -m uvicorn app.main:app --reload
 ```
 
+```python
 ## Backend Technical Architecture
-
 backend/
 ├── .gitignore
 ├── requirements.txt
@@ -39,3 +39,4 @@ backend/
 │ └── run_ingestion.py # Executable script to trigger the ingestion pipeline.
 │
 └── data/ # (Ignored by Git) Stores persistent data files for milvus and graph
+```
